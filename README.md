@@ -8,7 +8,8 @@ MailMind is a Chrome extension that supercharges your Gmail workflow — it extr
 
 ## 🎬 Demo
 
-> *Add a GIF or screenshot of the extension in action here*
+> <img width="1901" height="901" alt="image" src="https://github.com/user-attachments/assets/8cd347a7-445e-4617-8a55-36e5b0e3cb82" />
+
 
 ---
 
