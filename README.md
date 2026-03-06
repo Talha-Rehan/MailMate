@@ -87,29 +87,6 @@ The MailMind icon will appear in your Chrome toolbar.
 
 ---
 
-## 📁 Project Structure
-
-```
-mailmind/
-├── extension/
-│   ├── manifest.json         # Extension config (Manifest V3)
-│   ├── content.js            # Extracts email content from Gmail DOM
-│   ├── popup.html            # Extension popup UI
-│   ├── popup.js              # Popup logic: tone selection, details input
-│   ├── background.js         # Service worker for message passing
-│   └── icons/                # Extension icons
-├── backend/
-│   ├── server.js             # Express server entry point
-│   ├── routes/
-│   │   └── ai.js             # /summarise and /reply endpoints
-│   ├── services/
-│   │   └── grok.js           # Grok API integration
-│   └── .env
-└── README.md
-```
-
----
-
 ## 🔄 How It Works
 
 ```
@@ -135,36 +112,6 @@ content.js
 
 ---
 
-## 🔌 API Endpoints
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| `POST` | `/api/summarise` | Accepts email body, returns AI summary |
-| `POST` | `/api/reply` | Accepts email body + tone + details, returns drafted reply |
-
-**Example request to `/api/reply`:**
-
-```json
-{
-  "emailBody": "Hi, I wanted to follow up on the proposal...",
-  "tone": "Professional",
-  "details": "Mention that we can schedule a call next Tuesday"
-}
-```
-
----
-
-## 🎭 Available Tones
-
-| Tone | Use Case |
-|------|----------|
-| 🏢 Professional | Work emails, client communication |
-| 😊 Friendly | Colleagues, casual business |
-| 📜 Formal | Legal, academic, official correspondence |
-| 💪 Assertive | Negotiations, follow-ups |
-| 💙 Empathetic | Support, sensitive topics |
-
----
 
 ## ⚠️ Permissions
 
@@ -187,12 +134,6 @@ Contributions are welcome! Please follow these steps:
 3. Commit your changes: `git commit -m 'Add your feature'`
 4. Push to the branch: `git push origin feature/your-feature`
 5. Open a Pull Request
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
