@@ -1,8 +1,8 @@
-# 📧 MailMind
+# 📧 MailMate
 
 > **Read less. Reply smarter. Powered by Grok AI.**
 
-MailMind is a Chrome extension that supercharges your Gmail workflow — it extracts email content, generates an instant AI summary, and drafts a tone-customized reply directly into Gmail's compose box, ready for you to send with one click.
+MailMate is a Chrome extension that supercharges your Gmail workflow — it extracts email content, generates an instant AI summary, and drafts a tone-customized reply directly into Gmail's compose box, ready for you to send with one click.
 
 ---
 
